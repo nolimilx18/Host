@@ -23,7 +23,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv('8837213239:AAEymHf6ySEqQ3Y6-hZEfbodlzoZvmXxzok')
+TOKEN = os.getenv('BOT_TOKEN')
 OWNER_ID_STR = os.getenv('6408034985')
 ADMIN_ID_STR = os.getenv('6408034985')
 YOUR_USERNAME = os.getenv('@no_limitsx18')
